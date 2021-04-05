@@ -11,6 +11,7 @@
 <div class="layui-fluid" style="margin-top: 40px;">
     <fieldset class="layui-elem-field layui-field-title">
         <legend style="font-size: 26px">我发布的租房信息</legend>
+        <a class="layui-btn layui-btn-l layui-btn-normal" href="hetong">合同模板</a>
     </fieldset>
     <table id="houseList" lay-filter="house"></table>
 </div>

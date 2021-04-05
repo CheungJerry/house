@@ -73,4 +73,10 @@ public class OrderController {
 			return "OK";
 		return "FAIL";
 	}
+	
+	@RequestMapping("/hetong")
+	//@ResponseBody
+	public String hetong() {
+		return "hetong";
+	}
 }
